@@ -16,3 +16,5 @@
 
 .prettierignore
 design/testimonials-grid-section-figma
+node_modules/
+.vercel

@@ -65,6 +65,19 @@ body {
     }
 }
 
+.vs-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
 figure {
     margin: 0;
 }
@@ -87,24 +100,24 @@ figure {
     animation: fadeIn 500ms backwards ease-in;
 }
 
-.testimonial:nth-child(1) {
+.testimonial:nth-of-type(1) {
     animation-delay: 100ms;
 }
 
-.testimonial:nth-child(2) {
+.testimonial:nth-of-type(2) {
     animation-delay: 200ms;
 }
 
-.testimonial:nth-child(3) {
+.testimonial:nth-of-type(3) {
     animation-delay: 500ms;
 }
 
-.testimonial:nth-child(4) {
+.testimonial:nth-of-type(4) {
     animation-delay: 300ms;
 }
 
-.testimonial:nth-child(5) {
-    animation-delay: 400ms;
+.testimonial:nth-of-type(5) {
+    animation-delay: 600ms;
 }
 
 @keyframes fadeIn {
